@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据分析系统</title>
+    <link type="text/css" rel="stylesheet" href="css/login.css">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <form class="login-form">
+        <h1>Login</h1>
+
+        <div class="txtb">
+            <input type="text" name="username">
+            <span data-placeholder="Username"></span>
+        </div>
+
+        <div class="txtb">
+            <input type="password" name="password">
+            <span data-placeholder="Password"></span>
+        </div>
+
+        <input type="button" value="登陆" class="login-btn" onclick="login()">
+		
+		<p id="tip"></p>
+        <div class="bottom-txt">
+            Don't have account?<a href="sigin.html"> Sign up</a>
+        </div>
+    </form>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</html>

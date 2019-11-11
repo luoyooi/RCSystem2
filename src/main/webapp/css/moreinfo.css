@@ -1,0 +1,46 @@
+#moreinfo_title{
+    font-size: 26px;
+    margin: 20px 0px 20px 2px;
+}
+
+#moreinfo_poster{
+    margin-left: 2px;
+    float: left;
+    width: 240px;
+    height: 335px;
+    
+}
+
+#moreinfo_info{
+    float: left;
+    margin-left: 5px;
+    width: 753px;
+}
+
+#moreinfo_info p{
+    margin: 6px 0px 10px 6px;
+    line-height: 21px;
+}
+
+#moreinfo_info p span{
+    font-weight: bold;
+}
+
+#analyse1{
+	width:1000px;
+	height:500px;
+	margin-top: 20px;
+	border-top: lightslategray 2px dashed;
+}
+
+#analyse1 p{
+	 
+}
+
+#analyse2{
+	width:1000px;
+	height:500px;
+	margin-top: 20px;
+	border-top: lightslategray 2px dashed;
+}
+

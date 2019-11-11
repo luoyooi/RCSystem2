@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link type="text/css" rel="stylesheet" href="css/login.css">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<form class="login-form">
+    <h1>Registered</h1>
+
+	<div class="txtb">
+        <input type="text" name="email">
+        <span data-placeholder="email address"></span>
+    </div>
+
+    <div class="txtb">
+        <input type="text" name="username">
+        <span data-placeholder="Username"></span>
+    </div>
+
+    <div class="txtb">
+        <input type="password" name="password">
+        <span data-placeholder="Password"></span>
+    </div>
+
+    <div class="txtb">
+        <input type="password" name="cfm-password">
+        <span data-placeholder="confirm Password"></span>
+    </div>
+    
+    
+
+    <input type="button" value="注册" class="login-btn" onclick="sigin()">
+
+    <p id="tip"></p>
+	<div class="bottom-txt">
+            registration success !<a href="login.html"> Log in now</a>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/sigin.js"></script>
+</form>
+</body>
+</html>

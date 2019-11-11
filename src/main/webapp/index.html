@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据分析</title>
+    <!--重置浏览器默认样式-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!--引入css层叠样式表-->
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/moreinfo.css" type="text/css">
+
+</head>
+<body onload="showMvInfo()">
+    <div class="header">
+        <a href="login.html" id="exit">退出</a>
+    </div>
+    <!--导航栏-->
+    <div class="nav wid">
+        <h1>最新电影推荐</h1>
+        <ul>
+            <li><a href="index.html">电影一览</a></li>
+            <li><a href="https://movie.douban.com/">豆瓣官网</a></li>
+            <li><a href="https://maoyan.com/">猫眼电影</a></li>
+        </ul>
+    </div>
+
+    <!--数据分析-->
+    <div class="analyse wid" id="people"></div>
+
+    <!--内容区-->
+    <div class="content wid clearfix" id="movies"></div>
+
+    <!--底部-->
+    <div class="footer">
+        Finished Time 2019年10月15日
+    </div>
+</body>
+<!-- 电影信息显示 -->
+<script type="text/javascript" src="js/info.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+
+</html>

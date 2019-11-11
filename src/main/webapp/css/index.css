@@ -1,0 +1,140 @@
+/*全局*/
+.wid{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/*解决高度塌陷*/
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*body*/
+body{
+	/* background: linear-gradient(120deg,#3498db,#8e44ad); */
+}
+
+/*头部*/
+.header{
+    height: 30px;
+    background: none;
+}
+
+.header #exit{
+    float: right;
+    margin-right: 30px;
+    font: 15px/30px 微软雅黑;
+    color: black;
+    text-decoration: none;
+}
+
+/*导航栏*/
+.nav{
+    position: relative;
+    border-bottom: #0097e6 1px solid;
+    padding-bottom: 10px;
+}
+
+.nav h1{
+    color: #5758BB;
+    font-size: 28px;
+    display: inline-block;
+    /*float: left;*/
+}
+
+.nav ul{
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.nav li{
+    float: left;
+    margin-right: 10px;
+}
+
+.nav a{
+    color: #5352ed;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #70a1ff;
+    text-decoration: underline;
+}
+
+.nav .login{
+    display: inline-block;
+}
+
+/*海报区*/
+.analyse{
+    width: 1000px;
+    height: 400px;
+    background-color: rgba(243, 243, 243, 0.5);
+    margin-top: 20px;
+}
+
+/*内容区*/
+.content{
+    margin-top: 10px;
+    padding-top: 6px;
+}
+
+.mvs{
+    margin-top: 10px;
+}
+
+.mvs img{
+    display: block;
+    width: 240px;
+    height: 335px;
+}
+
+.mv{
+	color: white;
+    float: left;
+    margin: 0px 5px;
+    background-color: #8c7ae6;
+    position: relative;
+}
+
+.mv p{
+	margin:10px 0px 10px 2px;
+}
+
+.mv span{
+	font-size: 22px;
+	position: absolute;
+	left: 200px;
+	top: 10px;
+}
+
+.mv a{
+    text-decoration: none;
+    padding-left: 88px;
+    display: block;
+    height: 30px;
+    font:  15px/30px  "微软雅黑" ;
+    color: black;
+    background-image: url("../img/btn1.png");
+    background-repeat: repeat-x;
+}
+
+.mv a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+/*底部*/
+.footer{
+    height: 30px;
+    background-color: rgba(105, 105, 105, 0.99);
+    margin-top: 5px;
+    color: white;
+    font: 15px/30px 微软雅黑;
+    padding-left: 50px;
+}
