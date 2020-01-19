@@ -29,10 +29,10 @@ public class CommService {
 		postagger = new Postagger();
 		
 		// 载入模板
-		if (segmentor.create("E:\\LTP\\ltp_data_v3.4.0\\cws.model") < 0) {
+		if (segmentor.create("D:\\LTP\\ltp_data_v3.4.0\\cws.model") < 0) {
 			System.out.println("segmentor load failed");
 		}
-		if (postagger.create("E:\\LTP\\ltp_data_v3.4.0\\pos.model") < 0) {
+		if (postagger.create("D:\\LTP\\ltp_data_v3.4.0\\pos.model") < 0) {
 			System.out.println("postagger load failed");
 		}
 	}

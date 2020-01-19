@@ -10,7 +10,7 @@ import com.luoyooi.util.DBUtils;
 public class LoginDAO {
 	public UserDO getUser(String username, String password)
 	{
-		String sql = "select username from acount where username= ? and password = ?";
+		String sql = "select * from acount where username= ? and password = ?";
 		UserDO user = null;
 		
 		try( Connection conn = DBUtils.getConn(); )
