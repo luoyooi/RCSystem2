@@ -7,7 +7,7 @@
 ### 前端
 javascript、html、css、jQuery、echarts
 ### 后端
-J2EE、MySQL5.7、ltp4j、maven3.6.3
+Python、J2EE、MySQL5.7、ltp4j、maven3.6.3
 
 ## 评论数据获取
 编写Python爬虫，从豆瓣爬取热门电影的基本信息和短评，主要用到urllib、bs4、pymysql、re、random、ssl、time、requests等库。
